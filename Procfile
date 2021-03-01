@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run clf_app.py
+web: sh setup.sh && streamlit run analytics_app.py
