@@ -16,7 +16,7 @@ df = pd.read_pickle('df_br.pkl')
 most_freq = df['etapa_ensino'].value_counts().index[0]
 df['etapa_ensino'].fillna(most_freq, inplace=True)
 
-st.set_page_config(
+st.beta_set_page_config(
     page_title="EM | Ebooks",
     page_icon="📚",      # polimento e chiquezas
     layout="centered",
